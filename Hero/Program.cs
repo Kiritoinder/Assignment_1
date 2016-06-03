@@ -20,7 +20,7 @@ namespace Hero
         static void Main(string[] args)
         {
             //Hero Name
-            Console.WriteLine("Hey! What's the name of your Hero? ");
+            Console.WriteLine("Yo! What's Your Hero's Name? ");
             string Avenger = Console.ReadLine();
             //Create a new instance of the Hero class
             Hero hero = new Hero(Avenger);
