@@ -113,7 +113,7 @@ namespace Hero
          */
         private int _hitDamage()
         {
-            int damage = this._strength * num.Next(2, 17);
+            int damage = this._strength * num.Next(1, 6);
             return damage;
         }
         //PUBLIC METHODS +++++++++++++++++++++++++++++++
